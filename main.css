@@ -1,0 +1,73 @@
+html {
+  font-size: 16px;
+  margin: 0px;
+  border: 0px;
+  width: 100vw;
+  height: 100vh;
+  font-family: 'Arial', 'Lato', 'sans', sans-serif;
+}
+
+body {
+  min-width: 100%;
+  height: 100%;
+  margin: 0px;
+  color: #FFF;
+  background-color: #FD940A;
+  background-image: radial-gradient(circle, #F9A72B 0%, #FA9026 70%, #FB6C1F 100%);
+}
+
+#weatherly {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#weatherly h1 {
+  font-size: 2.7rem;
+  font-weight: 600;
+}
+
+#weatherly h2 {
+  font-size: 1.6rem;
+  text-transform: capitalize;
+}
+
+#weatherly .icon {
+  display: inline;
+  height: 3.2rem;
+}
+
+#flag {
+  display: block;
+  margin: auto;
+  background: none;
+  text-transform: uppercase;
+  border: solid 6px rgba(250, 250, 250, 0);
+  letter-spacing: 0.5px;
+  font-weight: 500;
+  padding: 5px;
+  color: #FFF;
+  transition: 0.3s all linear;
+}
+
+a {
+  text-decoration: none;
+  color: #5FF;
+}
+
+#flag:hover {
+  cursor: pointer;
+  border-color: rgba(250, 250, 250, 1);
+  border-radius: 30px;
+}
+
+footer {
+  max-width: 100%;
+  text-align: center;
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+}
